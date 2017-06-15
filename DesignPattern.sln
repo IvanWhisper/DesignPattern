@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI_WPF", "UI_WPF\UI_WPF.csproj", "{341C938B-27ED-4F01-9CE1-65243412B30B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型", "创建型", "{5787CF23-5E74-4D95-8FFD-D06C1B964B15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_SingletonPattern", "01_SingletonPattern\_01_SingletonPattern.csproj", "{FBE26539-A9EC-401A-AA86-347A21A17A9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型", "结构型", "{3EC9A9F2-F803-41E4-B88E-B175F44C5220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型", "行为型", "{EE2A3E69-6ADD-423B-AF74-219A68A74B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_AbstarctFactory", "_02_AbstarctFactory\_02_AbstarctFactory.csproj", "{2C659B5B-1686-41A7-8BCB-37B4E74D783D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_03_Builder", "_03_Builder\_03_Builder.csproj", "{51B6DDAD-621C-4D21-90D1-1B1B74DAAFAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{341C938B-27ED-4F01-9CE1-65243412B30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341C938B-27ED-4F01-9CE1-65243412B30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341C938B-27ED-4F01-9CE1-65243412B30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341C938B-27ED-4F01-9CE1-65243412B30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE26539-A9EC-401A-AA86-347A21A17A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE26539-A9EC-401A-AA86-347A21A17A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE26539-A9EC-401A-AA86-347A21A17A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE26539-A9EC-401A-AA86-347A21A17A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C659B5B-1686-41A7-8BCB-37B4E74D783D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C659B5B-1686-41A7-8BCB-37B4E74D783D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C659B5B-1686-41A7-8BCB-37B4E74D783D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C659B5B-1686-41A7-8BCB-37B4E74D783D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B6DDAD-621C-4D21-90D1-1B1B74DAAFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B6DDAD-621C-4D21-90D1-1B1B74DAAFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B6DDAD-621C-4D21-90D1-1B1B74DAAFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B6DDAD-621C-4D21-90D1-1B1B74DAAFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBE26539-A9EC-401A-AA86-347A21A17A9C} = {5787CF23-5E74-4D95-8FFD-D06C1B964B15}
+		{2C659B5B-1686-41A7-8BCB-37B4E74D783D} = {5787CF23-5E74-4D95-8FFD-D06C1B964B15}
+		{51B6DDAD-621C-4D21-90D1-1B1B74DAAFAE} = {5787CF23-5E74-4D95-8FFD-D06C1B964B15}
+	EndGlobalSection
+EndGlobal
